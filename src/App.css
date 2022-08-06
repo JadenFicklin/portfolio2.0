@@ -1,12 +1,15 @@
 * {
   margin: 0px;
+  font-family: sans-serif;
 }
 
 body {
   background-color: #0a192f;
 }
 
+/* navigation bar */
 nav {
+  margin-top: 10px;
   width: 100%;
   height: 70px;
   display: flex;
@@ -27,10 +30,9 @@ nav {
   width: 33%;
 }
 .right {
-  width: 53%;
+  width: 33%;
   justify-content: space-evenly;
 }
-
 .number,
 .logo,
 .resume {
@@ -41,7 +43,6 @@ nav {
 .contact {
   color: #ccd6f6;
 }
-
 .logo,
 .resume {
   border: 1px solid #64ffda;
@@ -51,11 +52,46 @@ nav {
   border-radius: 9px;
 }
 .logo {
-  width: 51px;
+  width: 46px;
   height: 41px;
   font-size: 24px;
 }
 .resume {
   width: 103px;
   height: 41px;
+}
+
+/* home page */
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  width: 878px;
+  height: 310px;
+  /* border: 1px solid white; */
+  margin-top: 12%;
+}
+h5 {
+  font-size: 16px;
+  color: #64ffda;
+  font-weight: 200;
+}
+.name {
+  margin-top: 15px;
+  font-size: 80px;
+  color: #ccd6f6;
+  font-weight: 600;
+}
+.occupation {
+  font-size: 80px;
+  color: #a8b2d1;
+  font-weight: 600;
+}
+.small-intro {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #a8b2d1;
 }
