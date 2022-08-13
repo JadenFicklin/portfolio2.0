@@ -1,21 +1,21 @@
 import React from "react";
-import useScrollPosition from "../hooks/useScrollPosition";
 function Nav() {
-  let scrollPosition = useScrollPosition();
-  console.log(scrollPosition);
+  const changeScroll = (position) => {
+    window.scrollTo(0, position);
+  };
 
   return (
     <>
       <nav className="outer">
-        <div className="logo" onClick={() => (scrollPosition = 0)}>
-          J
-        </div>
+        <div className="logo">J</div>
         <div className="middle"></div>
         <div className="right">
-          <div className="about">
-            <span className="number">01. </span>About
-          </div>
-          <div className="work">
+          <a href="#about">
+            <div className="about">
+              <span className="number">01. </span>About
+            </div>
+          </a>
+          <div className="work" onClick={() => changeScroll(200)}>
             <span className="number">02. </span>Work
           </div>
           <div className="contact">
