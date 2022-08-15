@@ -156,15 +156,14 @@ h5 {
 .work-outer {
   width: 100%;
   height: 100vh;
-  /* background-color: #162f53; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 .work-inner {
   width: 50%;
   height: 90%;
-  /* background-color: #0d2444; */
 }
 .work-header {
   color: white;
@@ -214,7 +213,7 @@ h5 {
 }
 
 .euka-box {
-  width: 555px;
+  width: 120%;
   height: 133px;
   background-color: #112240;
   color: #ccd6f6;
@@ -223,6 +222,117 @@ h5 {
   margin-left: -79px;
 }
 .euka-languages-used {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
+}
+
+.sopi-outer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sopi-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sopi-project-name {
+  width: 100%;
+  height: 20px;
+  padding-left: 20px;
+  color: #64ffda;
+  font-size: 13px;
+}
+
+.sopi-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  padding-left: 20px;
+}
+.sopi-box {
+  width: 120%;
+  height: 133px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  margin-right: -79px;
+}
+.sopi-languages-used {
+  width: 100%;
+  height: 20px;
+  padding-left: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
+}
+
+.sopi-right {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../src/assets/sopi.JPG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 10px;
+}
+
+.ambience-outer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ambience-right {
+  width: 50%;
+  height: 100%;
+}
+.ambience-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../src/assets/ambience2.JPG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 10px;
+}
+.ambience-project-name {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #64ffda;
+  font-size: 13px;
+}
+.ambience-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.ambience-box {
+  width: 120%;
+  height: 133px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -79px;
+}
+.ambience-languages-used {
   width: 100%;
   height: 20px;
   display: flex;

@@ -21,12 +21,28 @@ function Work() {
             </div>
           </div>
           <div className="sopi-outer">
-            <div className="sopi-left"></div>
+            <div className="sopi-left">
+              <div className="sopi-project-name">Featured Project</div>
+              <div className="sopi-name">Sopi</div>
+              <div className="sopi-box">Sopi is</div>
+              <div className="sopi-languages-used">
+                CSS React HTML Javascript SQL
+              </div>
+              <div className="euka-links"></div>
+            </div>
             <div className="sopi-right"></div>
           </div>
           <div className="ambience-outer">
             <div className="ambience-left"></div>
-            <div className="ambience-right"></div>
+            <div className="ambience-right">
+              <div className="ambience-project-name">Featured Project</div>
+              <div className="ambience-name">Ambience</div>
+              <div className="ambience-box">Ambience is</div>
+              <div className="ambience-languages-used">
+                CSS React HTML Javascript
+              </div>
+              <div className="ambience-links"></div>
+            </div>
           </div>
         </div>
       </div>
