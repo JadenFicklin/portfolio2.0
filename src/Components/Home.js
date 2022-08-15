@@ -4,6 +4,7 @@ import Nav from "./Nav";
 
 import useScrollPosition from "../hooks/useScrollPosition";
 import Work from "./Work";
+import Contact from "./Contact";
 
 function Home() {
   const scrollPosition = useScrollPosition();
@@ -25,6 +26,7 @@ function Home() {
       </div>
       <About />
       <Work />
+      <Contact />
     </>
   );
 }
