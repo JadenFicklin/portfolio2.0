@@ -139,7 +139,6 @@ h5 {
   background-position: bottom;
   background-repeat: none;
   border-radius: 10px;
-  background-color: blue;
 }
 .pic-border {
   width: 303px;
@@ -150,4 +149,85 @@ h5 {
   top: 30px;
   border-radius: 10px;
   z-index: -1;
+}
+
+/* work */
+
+.work-outer {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #162f53; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-inner {
+  width: 50%;
+  height: 90%;
+  /* background-color: #0d2444; */
+}
+.work-header {
+  color: white;
+  font-size: 32px;
+}
+.euka-outer,
+.sopi-outer,
+.ambience-outer {
+  width: 100%;
+  height: 254px;
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.euka-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+
+  background-image: url("../src/assets/Euka.PNG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 10px;
+}
+.euka-right {
+  width: 50%;
+  height: 100%;
+}
+.euka-project-name {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #64ffda;
+  font-size: 13px;
+}
+.euka-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.euka-box {
+  width: 555px;
+  height: 133px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -79px;
+}
+.euka-languages-used {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
 }
