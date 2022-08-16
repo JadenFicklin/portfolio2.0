@@ -5,7 +5,7 @@ function Contact() {
     <>
       <div className="contact-outer">
         <div className="contact-inner">
-          <div className="contact-header">04. What's Next?</div>
+          <div className="contact-header">03. What's Next?</div>
           <div className="contact-sub-header">Get In Touch</div>
           <div className="contact-sub-text">
             I'm currently looking for new opportunities! <br></br>my Inbox is

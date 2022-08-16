@@ -18,7 +18,7 @@ nav {
   align-items: center;
   position: fixed;
   top: 0;
-  /* background-color: #0a192f; */
+  background-color: #0a192f;
 }
 .logo,
 .middle,
@@ -29,6 +29,9 @@ nav {
 }
 .logo {
   width: 10%;
+}
+.logo:hover {
+  cursor: pointer;
 }
 .middle {
   width: 33%;
@@ -42,11 +45,20 @@ nav {
 .resume {
   color: #64ffda;
 }
+.number:hover {
+  cursor: pointer;
+}
 .work,
 .about,
 .contact {
   color: #ccd6f6;
 }
+.work:hover,
+.about:hover,
+.contact:hover {
+  cursor: pointer;
+}
+
 .logo,
 .resume {
   border: 1px solid #64ffda;
@@ -63,6 +75,11 @@ nav {
 .resume {
   width: 103px;
   height: 41px;
+}
+.resume:hover {
+  cursor: pointer;
+  background-color: #64ffda;
+  color: #0a192f;
 }
 
 /* home page */
