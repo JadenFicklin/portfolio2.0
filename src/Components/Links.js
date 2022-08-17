@@ -9,10 +9,34 @@ function Links() {
   return (
     <>
       <div className="links-outer">
-        <FiGithub className="github icon"></FiGithub>
-        <FiLinkedin className="linkedin icon"></FiLinkedin>
-        <FiFacebook className="facebook icon"></FiFacebook>
-        <HiOutlineMail className="email icon"></HiOutlineMail>
+        <a
+          className="link icon"
+          href="https://github.com/JadenFicklin"
+          target={"_blank"}
+        >
+          <FiGithub className="github"></FiGithub>
+        </a>
+        <a
+          className="link icon"
+          href="https://www.linkedin.com/in/jaden-ficklin-b1686a21a/"
+          target={"_blank"}
+        >
+          <FiLinkedin className="linkedin"> </FiLinkedin>
+        </a>
+        <a
+          className="link icon"
+          href="https://www.facebook.com/jaden.ficklin/"
+          target={"_blank"}
+        >
+          <FiFacebook className="facebook"></FiFacebook>
+        </a>
+        <a
+          className="link icon"
+          href="https://mail.google.com/mail/u/0/#inbox"
+          target={"_blank"}
+        >
+          <HiOutlineMail className="email "></HiOutlineMail>
+        </a>
         <div className="line">
           <div className="line-inner"></div>
         </div>

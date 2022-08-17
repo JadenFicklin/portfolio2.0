@@ -91,7 +91,7 @@ nav {
 /* links */
 .links-outer {
   position: fixed;
-  width: 30px;
+  width: 40px;
   height: 350px;
   left: 3%;
   bottom: 0px;
@@ -101,8 +101,6 @@ nav {
   align-items: center;
 }
 .icon {
-  width: 80%;
-  height: 10%;
   color: #ccd6f6;
   transition: 0.3s;
 }
@@ -111,6 +109,20 @@ nav {
   margin-top: -5px;
   margin-bottom: 5px;
   cursor: pointer;
+}
+.link {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.github,
+.linkedin,
+.facebook,
+.email {
+  width: 60%;
+  height: 50%;
 }
 .line {
   width: 90%;
@@ -125,7 +137,6 @@ nav {
   height: 100%;
   background-color: #ccd6f6;
 }
-
 /* home page */
 .home {
   width: 100%;
