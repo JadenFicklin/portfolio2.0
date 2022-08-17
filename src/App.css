@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0a192f;
 }
@@ -47,6 +51,7 @@ nav {
 .resume {
   color: #64ffda;
   font-family: "Fira Code", monospace;
+  text-decoration: none;
 }
 .number:hover {
   cursor: pointer;
@@ -63,25 +68,39 @@ nav {
   cursor: pointer;
   color: #64ffda;
 }
-
-.logo,
-.resume {
-  border: 1px solid #64ffda;
+.left {
+  width: 50px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 9px;
+  flex-wrap: wrap;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
-  width: 46px;
-  height: 41px;
-  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+}
+.letter {
+  font-size: 25px;
+  color: #64ffda;
+  position: relative;
+  bottom: 37px;
+  right: 1px;
+  z-index: -1;
 }
 .resume {
   width: 103px;
   height: 41px;
   font-family: "Fira Code", monospace;
   transition: 0.3s;
+  border: 1px solid #64ffda;
+  border-radius: 10px;
 }
 .resume:hover {
   cursor: pointer;

@@ -1,4 +1,6 @@
 import React from "react";
+import { BsHexagon } from "react-icons/bs";
+
 function Nav() {
   const changeScroll = (position) => {
     window.scrollTo(0, position);
@@ -7,8 +9,12 @@ function Nav() {
   return (
     <>
       <nav className="outer">
-        <div className="logo" onClick={() => changeScroll(0)}>
-          J
+        <div className="left">
+          <BsHexagon
+            className="logo"
+            onClick={() => changeScroll(0)}
+          ></BsHexagon>
+          <div className="letter">J</div>
         </div>
         <div className="middle"></div>
         <div className="right">
@@ -23,7 +29,13 @@ function Nav() {
           <div className="contact" onClick={() => changeScroll(3118)}>
             <span className="number">03. </span>Contact
           </div>
-          <div className="resume"> Resume</div>
+          <a
+            className="resume"
+            href="https://docs.google.com/document/d/1JdSuQ0_cHch6DIrJgT5rn2y2O_9ECBs2zPuc2gsoOkc/edit?usp=sharing"
+            target={"_blank"}
+          >
+            Resume
+          </a>
         </div>
       </nav>
     </>
