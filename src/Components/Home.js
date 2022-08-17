@@ -18,7 +18,7 @@ function Home() {
       <div className="home">
         <div className="intro">
           <h5 className="introduction">Hello, my name is</h5>
-          <div className="name">Jaden Ficklin.</div>
+          <div className="name">Jadenn Ficklin.</div>
           <div className="occupation">I am a Web Developer.</div>
           <div className="small-intro" onClick={() => (scrollPosition = 0)}>
             I’m a junior full stack engineer specializing in the react
