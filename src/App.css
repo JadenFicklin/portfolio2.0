@@ -324,10 +324,46 @@ h5 {
   color: #ccd6f6;
   margin-top: 5px;
 }
-
+.euka-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.euka-links-right {
+  width: 90px;
+  height: 100%;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.euka-video,
+.euka-github {
+  width: 35px;
+  height: 35px;
+}
+.euka-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  color: #a8b2d1;
+  transition: 0.3s;
+}
+.icon-link:hover {
+  color: #64ffda;
+}
 .sopi-outer {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .sopi-left {
   width: 50%;
@@ -368,6 +404,42 @@ h5 {
   padding-left: 20px;
   color: #ccd6f6;
   margin-top: 5px;
+}
+
+.sopi-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sopi-links-right {
+  width: 120px;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sopi-video,
+.sopi-github {
+  width: 35px;
+  height: 35px;
+}
+.sopi-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  color: #a8b2d1;
+  transition: 0.3s;
+}
+.icon-link:hover {
+  color: #64ffda;
 }
 
 .sopi-right {
@@ -436,6 +508,38 @@ h5 {
   padding-right: 20px;
   color: #ccd6f6;
   margin-top: 5px;
+}
+.ambience-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ambience-links-right {
+  width: 90px;
+  height: 100%;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ambience-website,
+.ambience-github {
+  width: 35px;
+  height: 35px;
+}
+.ambience-website {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+.ambience-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 
 /* contact */

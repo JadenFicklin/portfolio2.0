@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 
 function Work() {
   return (
@@ -24,7 +27,24 @@ function Work() {
               <div className="euka-languages-used">
                 CSS React HTML Javascript
               </div>
-              <div className="euka-links"></div>
+              <div className="euka-links">
+                <div className="euka-links-right">
+                  <a
+                    className="euka-video"
+                    href="https://www.youtube.com/watch?v=-Zj5KCwzMwg"
+                    target={"_blank"}
+                  >
+                    <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
+                  </a>
+                  <a
+                    className="euka-github"
+                    href="https://github.com/JadenFicklin/Capstone-project"
+                    target={"_blank"}
+                  >
+                    <FiGithub className="icon-link"></FiGithub>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="sopi-outer">
@@ -44,7 +64,31 @@ function Work() {
               <div className="sopi-languages-used">
                 CSS React HTML Javascript SQL
               </div>
-              <div className="euka-links"></div>
+              <div className="sopi-links">
+                <div className="sopi-links-right">
+                  <a
+                    className="sopi-video"
+                    href="https://www.youtube.com/watch?v=8L-vkJSVaJs"
+                    target={"_blank"}
+                  >
+                    <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
+                  </a>
+                  <a
+                    className="sopi-github"
+                    href="https://capstone-2-jf.herokuapp.com/"
+                    target={"_blank"}
+                  >
+                    <FiExternalLink className="icon-link"></FiExternalLink>
+                  </a>
+                  <a
+                    className="sopi-github"
+                    href="https://github.com/JadenFicklin/specs-capstone"
+                    target={"_blank"}
+                  >
+                    <FiGithub className="icon-link"></FiGithub>
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="sopi-right"></div>
           </div>
@@ -66,7 +110,24 @@ function Work() {
               <div className="ambience-languages-used">
                 CSS React HTML Javascript
               </div>
-              <div className="ambience-links"></div>
+              <div className="ambience-links">
+                <div className="ambience-links-right">
+                  <a
+                    className="ambience-website"
+                    href="https://ambience-jf.herokuapp.com/"
+                    target={"_blank"}
+                  >
+                    <FiExternalLink className="icon-link"></FiExternalLink>
+                  </a>
+                  <a
+                    className="ambience-github"
+                    href="https://github.com/JadenFicklin/ambience-side-project"
+                    target={"_blank"}
+                  >
+                    <FiGithub className="icon-link"></FiGithub>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
