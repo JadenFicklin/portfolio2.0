@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import Links from "./Links";
 
 function Home() {
-  const scrollPosition = useScrollPosition();
+  let scrollPosition = useScrollPosition();
   console.log(scrollPosition);
 
   return (

@@ -32,7 +32,8 @@ function Nav() {
           <a
             className="resume"
             href="https://docs.google.com/document/d/1JdSuQ0_cHch6DIrJgT5rn2y2O_9ECBs2zPuc2gsoOkc/edit?usp=sharing"
-            target={"_blank"}
+            target="_blank"
+            rel="noreferrer"
           >
             Resume
           </a>

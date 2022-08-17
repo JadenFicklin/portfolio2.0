@@ -32,14 +32,16 @@ function Work() {
                   <a
                     className="euka-video"
                     href="https://www.youtube.com/watch?v=-Zj5KCwzMwg"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
                   </a>
                   <a
                     className="euka-github"
                     href="https://github.com/JadenFicklin/Capstone-project"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <FiGithub className="icon-link"></FiGithub>
                   </a>
@@ -69,21 +71,24 @@ function Work() {
                   <a
                     className="sopi-video"
                     href="https://www.youtube.com/watch?v=8L-vkJSVaJs"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
                   </a>
                   <a
                     className="sopi-github"
                     href="https://capstone-2-jf.herokuapp.com/"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <FiExternalLink className="icon-link"></FiExternalLink>
                   </a>
                   <a
                     className="sopi-github"
                     href="https://github.com/JadenFicklin/specs-capstone"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <FiGithub className="icon-link"></FiGithub>
                   </a>
@@ -115,14 +120,16 @@ function Work() {
                   <a
                     className="ambience-website"
                     href="https://ambience-jf.herokuapp.com/"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <FiExternalLink className="icon-link"></FiExternalLink>
                   </a>
                   <a
                     className="ambience-github"
                     href="https://github.com/JadenFicklin/ambience-side-project"
-                    target={"_blank"}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <FiGithub className="icon-link"></FiGithub>
                   </a>

@@ -542,6 +542,22 @@ h5 {
   margin-right: 10px;
 }
 
+.euka-links,
+.sopi-links,
+.ambience-links {
+  margin-top: 10px;
+}
+.euka-video:hover,
+.euka-github:hover,
+.sopi-video:hover,
+.sopi-website:hover,
+.sopi-github:hover,
+.ambience-website:hover,
+.ambience-github:hover {
+  transition: 0.3s;
+  margin-top: -5px;
+}
+
 /* contact */
 
 .contact-outer {
