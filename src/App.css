@@ -88,6 +88,44 @@ nav {
   background-color: #64ffdb27;
 }
 
+/* links */
+.links-outer {
+  position: fixed;
+  width: 30px;
+  height: 350px;
+  left: 3%;
+  bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 80%;
+  height: 10%;
+  color: #ccd6f6;
+  transition: 0.3s;
+}
+.icon:hover {
+  color: #64ffda;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.line {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -12px;
+}
+.line-inner {
+  width: 2px;
+  height: 100%;
+  background-color: #ccd6f6;
+}
+
 /* home page */
 .home {
   width: 100%;

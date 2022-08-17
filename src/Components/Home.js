@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import useScrollPosition from "../hooks/useScrollPosition";
 import Work from "./Work";
 import Contact from "./Contact";
+import Links from "./Links";
 
 function Home() {
   const scrollPosition = useScrollPosition();
@@ -13,6 +14,7 @@ function Home() {
   return (
     <>
       <Nav />
+      <Links />
       <div className="home">
         <div className="intro">
           <h5 className="introduction">Hello, my name is</h5>
