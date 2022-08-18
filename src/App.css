@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Code:wght@300&family=Inter:wght@200&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Open+Sans:wght@800&family=Oswald&family=Playfair+Display:wght@400;500&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
 
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+.introduction {
+  animation: 1.3s ease-out 0s 1 slideInFromBottom;
+}
+.name {
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+.occupation {
+  animation: 1.3s ease-out 0s 1 slideInFromBottom;
+}
+.small-intro {
+  animation: 1.5s ease-out 0s 1 slideInFromBottom;
+}
+
 * {
   margin: 0px;
   font-family: sans-serif;
