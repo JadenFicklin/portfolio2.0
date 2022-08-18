@@ -174,10 +174,25 @@ nav {
 .introduction {
   font-family: "Fira Code", monospace;
 }
+
 h5 {
   font-size: 16px;
   color: #64ffda;
   font-weight: 200;
+}
+.space {
+  margin-right: 30px;
+}
+.l {
+  transition: 0.3s;
+  position: relative;
+  bottom: 0px;
+}
+.l:hover {
+  color: #64ffda;
+  position: relative;
+  bottom: 10px;
+  cursor: auto;
 }
 .name {
   margin-top: 15px;
