@@ -634,7 +634,19 @@ h5 {
   margin-top: 60px;
   transition: 0.3s;
 }
+a:link {
+  text-decoration: none !important;
+}
 .contact-button:hover {
   background-color: #64ffdb27;
   cursor: pointer;
+}
+.logo {
+  position: relative;
+  z-index: 200;
+  transition: all 0.7s ease-in-out 0s;
+}
+.logo:hover {
+  transform: rotate(150deg);
+  transition: all 0.3s ease-in-out 0s;
 }
