@@ -11,12 +11,23 @@ function Home() {
   let scrollPosition = useScrollPosition();
   console.log(scrollPosition);
 
+  function getWidth() {
+    return Math.max(
+      document.body.scrollWidth,
+      document.documentElement.scrollWidth,
+      document.body.offsetWidth,
+      document.documentElement.offsetWidth,
+      document.documentElement.clientWidth
+    );
+  }
+
   return (
     <>
       <Nav />
       <Links />
       <div className="home">
         <div className="intro">
+          <h5>{getWidth()}px</h5>
           <h5 className="introduction">Hello, my name is</h5>
           <div className="name">
             <span className="l">J</span>
