@@ -17,7 +17,9 @@ function Work() {
               target="_blank"
               rel="noreferrer"
               className="euka-left"
-            ></a>
+            >
+              {" "}
+            </a>
 
             <div className="euka-right">
               <div className="euka-project-name">Featured Project</div>
@@ -111,7 +113,9 @@ function Work() {
               target="_blank"
               rel="noreferrer"
               className="sopi-right"
-            ></a>
+            >
+              {" "}
+            </a>
           </div>
           <div className="ambience-outer">
             <a
@@ -119,7 +123,9 @@ function Work() {
               target="_blank"
               rel="noreferrer"
               className="ambience-left"
-            ></a>
+            >
+              {" "}
+            </a>
             <div className="ambience-right">
               <div className="ambience-project-name">Featured Project</div>
               <div className="ambience-name">Ambience</div>
