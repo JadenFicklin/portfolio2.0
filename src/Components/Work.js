@@ -12,7 +12,13 @@ function Work() {
             <span className="number">02. </span>Work
           </div>
           <div className="euka-outer">
-            <div className="euka-left"></div>
+            <a
+              href="https://www.youtube.com/watch?v=-Zj5KCwzMwg"
+              target="_blank"
+              rel="noreferrer"
+              className="euka-left"
+            ></a>
+
             <div className="euka-right">
               <div className="euka-project-name">Featured Project</div>
               <div className="euka-name">Euka</div>
@@ -100,10 +106,20 @@ function Work() {
                 </div>
               </div>
             </div>
-            <div className="sopi-right"></div>
+            <a
+              href="https://capstone-2-jf.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="sopi-right"
+            ></a>
           </div>
           <div className="ambience-outer">
-            <div className="ambience-left"></div>
+            <a
+              href="https://ambience-jf.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="ambience-left"
+            ></a>
             <div className="ambience-right">
               <div className="ambience-project-name">Featured Project</div>
               <div className="ambience-name">Ambience</div>

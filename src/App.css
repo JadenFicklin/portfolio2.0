@@ -314,12 +314,16 @@ h5 {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-
   background-image: url("../src/assets/Euka.PNG");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
   border-radius: 10px;
+}
+.euka-left:hover,
+.sopi-right:hover,
+.ambience-left:hover {
+  cursor: pointer;
 }
 .euka-right {
   width: 50%;
@@ -678,8 +682,150 @@ a:link {
   transition: all 0.3s ease-in-out 0s;
 }
 
-@media screen and (max-width: 480px) {
-  .home {
-    background-color: white;
+@media screen and (max-width: 1100px) {
+  /* nav */
+  .middle {
+    width: 20%;
+  }
+  .right {
+    width: 45%;
+  }
+  /* home */
+  .intro {
+    width: 80%;
+    margin-left: 100px;
+  }
+  .name,
+  .occupation {
+    font-size: 55px;
+  }
+  .small-intro {
+    width: 700px;
+    height: 30px;
+    font-size: 13px;
+  }
+  /* about */
+  .about-outer {
+    /* background-color: white; */
+    width: 70%;
+    margin-top: 200px;
+  }
+  .about-me {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+  .about-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+  }
+  .pic-border {
+    width: 200px;
+    height: 200px;
+  }
+  /* work  */
+  .work-outer {
+    margin-top: 500px;
+  }
+  .work-inner {
+    width: 70%;
+  }
+  .work-header {
+    font-size: 25px;
+  }
+  .euka-box,
+  .sopi-box,
+  .ambience-box {
+    font-size: 14px;
+  }
+  .euka-languages-used,
+  .sopi-languages-used,
+  .ambience-languages-used {
+    font-size: 14px;
+  }
+  /* contact  */
+  .contact-outer {
+    margin-top: 500px;
+  }
+
+  .contact-header {
+    font-size: 18px;
+  }
+  .contact-sub-header {
+    font-size: 50px;
+  }
+  .contact-sub-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* nav  */
+  .left {
+    margin-left: 10px;
+  }
+  .middle {
+    width: 10%;
+  }
+  .right {
+    width: 60%;
+  }
+  /* about  */
+  .about-outer {
+    width: 500px;
+    margin-left: 150px;
+  }
+  .about-left {
+    width: 100%;
+    height: 50%;
+  }
+  .about-text {
+    font-size: 13px;
+  }
+  .about-right {
+    width: 100%;
+    height: 50%;
+  }
+  .about-picture {
+    margin-top: 100px;
+    border-radius: 5px;
+  }
+  /* work  */
+  .work-outer {
+    width: 750px;
+    justify-content: flex-end;
+  }
+  .work-inner {
+    width: 600px;
+    margin-right: 50px;
+  }
+  .work-header {
+    font-size: 25px;
+  }
+  .euka-box,
+  .sopi-box,
+  .ambience-box {
+    font-size: 12px;
+  }
+  .euka-languages-used,
+  .sopi-languages-used,
+  .ambience-languages-used {
+    font-size: 12px;
+  }
+  /* contact  */
+  .contact-outer {
+    width: 820px;
+  }
+  .contact-header {
+    font-size: 18px;
+  }
+  .contact-sub-header {
+    font-size: 50px;
+  }
+  .contact-sub-text {
+    font-size: 18px;
   }
 }
