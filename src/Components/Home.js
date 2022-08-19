@@ -11,15 +11,15 @@ function Home() {
   let scrollPosition = useScrollPosition();
   console.log(scrollPosition);
 
-  function getWidth() {
-    return Math.max(
-      document.body.scrollWidth,
-      document.documentElement.scrollWidth,
-      document.body.offsetWidth,
-      document.documentElement.offsetWidth,
-      document.documentElement.clientWidth
-    );
-  }
+  // function getWidth() {
+  //   return Math.max(
+  //     document.body.scrollWidth,
+  //     document.documentElement.scrollWidth,
+  //     document.body.offsetWidth,
+  //     document.documentElement.offsetWidth,
+  //     document.documentElement.clientWidth
+  //   );
+  // }
 
   return (
     <>
