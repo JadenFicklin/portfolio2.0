@@ -27,7 +27,7 @@ function Home() {
       <Links />
       <div className="home">
         <div className="intro">
-          <h5>{getWidth()}px</h5>
+          {/* <h5>{getWidth()}px</h5> */}
           <h5 className="introduction">Hello, my name is</h5>
           <div className="name">
             <span className="l">J</span>
