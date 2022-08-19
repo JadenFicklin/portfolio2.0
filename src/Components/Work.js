@@ -25,7 +25,9 @@ function Work() {
                 <span className="number">main focus of website: </span> CSS
               </div>
               <div className="euka-languages-used">
-                CSS React HTML Javascript
+                React <span className="space"></span>Express{" "}
+                <span className="space"></span>React Router{" "}
+                <span className="space"></span> CSS
               </div>
               <div className="euka-links">
                 <div className="euka-links-right">
@@ -64,7 +66,10 @@ function Work() {
                 <span className="number">main focus of website: </span>SQL
               </div>
               <div className="sopi-languages-used">
-                CSS React HTML Javascript SQL
+                React<span className="space"></span> Javascript
+                <span className="space"></span> Bcrypt
+                <span className="space"></span> SQL
+                <span className="space"></span> Heroku
               </div>
               <div className="sopi-links">
                 <div className="sopi-links-right">
@@ -113,7 +118,9 @@ function Work() {
                 CSS
               </div>
               <div className="ambience-languages-used">
-                CSS React HTML Javascript
+                React
+                <span className="space"></span> Javascript
+                <span className="space"></span> Heroku
               </div>
               <div className="ambience-links">
                 <div className="ambience-links-right">

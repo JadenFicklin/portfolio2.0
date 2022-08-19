@@ -12,7 +12,7 @@
 }
 
 .introduction {
-  animation: 1.3s ease-out 0s 1 slideInFromBottom;
+  animation: 0.8s ease-out 0s 1 slideInFromBottom;
 }
 .name {
   animation: 1s ease-out 0s 1 slideInFromBottom;
@@ -362,6 +362,7 @@ h5 {
   padding-right: 20px;
   color: #ccd6f6;
   margin-top: 5px;
+  font-family: "Fira Code", monospace;
 }
 .euka-links {
   width: 100%;
@@ -443,6 +444,7 @@ h5 {
   padding-left: 20px;
   color: #ccd6f6;
   margin-top: 5px;
+  font-family: "Fira Code", monospace;
 }
 
 .sopi-links {
@@ -547,6 +549,7 @@ h5 {
   padding-right: 20px;
   color: #ccd6f6;
   margin-top: 5px;
+  font-family: "Fira Code", monospace;
 }
 .ambience-links {
   width: 100%;
@@ -673,4 +676,10 @@ a:link {
 .logo:hover {
   transform: rotate(150deg);
   transition: all 0.3s ease-in-out 0s;
+}
+
+@media screen and (max-width: 480px) {
+  .home {
+    background-color: white;
+  }
 }
