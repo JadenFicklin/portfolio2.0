@@ -5,15 +5,26 @@ function Contact() {
     <>
       <div className="contact-outer">
         <div className="contact-inner">
-          <div className="contact-header">03. What's Next?</div>
-          <div className="contact-sub-header">Get In Touch</div>
+          <div className="number one contact-number">
+            03
+            <br></br>
+            <span className="contact-me-head">
+              <span className="l">C</span>
+              <span className="l">o</span>
+              <span className="l">n</span>
+              <span className="l">t</span>
+              <span className="l">a</span>
+              <span className="l">c</span>
+              <span className="l">t</span>
+            </span>
+          </div>
+
           <div className="contact-sub-text">
-            I'm currently looking for new opportunities! <br></br>my Inbox is
-            always open. Whether you have a question or just want to say hi,
-            I'll try my best to get back to you!
+            I am currently working on freelance projects <br></br>
+            but am open to new opportunites.
           </div>
           <a href="mailto:jadenficklin123@gmail.com">
-            <div className="contact-button">Say Hello</div>
+            <div className="contact-button">jadenficklin123@gmail.com</div>
           </a>
         </div>
       </div>

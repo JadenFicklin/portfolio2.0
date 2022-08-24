@@ -364,6 +364,7 @@ h5 {
   color: white;
   font-size: 32px;
 }
+
 .euka-outer,
 .sopi-outer,
 .ambience-outer {
@@ -680,7 +681,8 @@ h5 {
 }
 .contact-inner {
   width: 50%;
-  height: 60%;
+  height: 40%;
+  margin-top: 150px;
 }
 .contact-header {
   width: 100%;
@@ -689,9 +691,10 @@ h5 {
   justify-content: center;
   align-items: center;
   color: #64ffda;
-  font-size: 20px;
-  margin-top: 100px;
+  font-size: 16px;
   font-family: "Fira Code", monospace;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .contact-sub-header {
   width: 100%;
@@ -701,8 +704,20 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0px;
   font-weight: 700;
+}
+.contact-number {
+  text-align: center;
+  margin-bottom: -20px;
+}
+.contact-me-head {
+  width: 100%;
+  font-size: 56px;
+  font-weight: bold;
+  color: #ccd6f6;
+}
+.contact-me-head:hover {
+  cursor: auto;
 }
 .contact-sub-text {
   width: 60%;
@@ -714,7 +729,6 @@ h5 {
   align-items: center;
   margin: 0 auto;
   text-align: center;
-  padding: 30px 0px;
 }
 .contact-button {
   font-family: "Fira Code", monospace;
@@ -724,9 +738,8 @@ h5 {
   padding: 20px;
   border-radius: 5px;
   height: 60px;
-  width: 120px;
+  width: 250px;
   margin: 0 auto;
-  margin-top: 60px;
   transition: 0.3s;
 }
 a:link {
@@ -745,6 +758,7 @@ a:link {
   transform: rotate(150deg);
   transition: all 0.3s ease-in-out 0s;
 }
+
 @media screen and (max-width: 1890px) {
   .sopi-languages-used {
     margin-bottom: 20px;
@@ -824,7 +838,7 @@ a:link {
     font-size: 50px;
   }
   .contact-sub-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -895,6 +909,6 @@ a:link {
     font-size: 50px;
   }
   .contact-sub-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
