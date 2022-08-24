@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Code:wght@300&family=Inter:wght@200&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Open+Sans:wght@800&family=Oswald&family=Playfair+Display:wght@400;500&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Code:wght@300&family=Inter:wght@200&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Open+Sans:wght@800&family=Oswald&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;700&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
 
 @keyframes slideInFromBottom {
   0% {
@@ -190,13 +190,20 @@ nav {
   justify-content: center;
 }
 .intro {
-  width: 878px;
-  height: 310px;
-  margin-top: 12%;
-  margin-top: 300px;
+  width: 1000px;
+  height: 200px;
+  margin-top: 380px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .introduction {
   font-family: "Fira Code", monospace;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10px;
 }
 
 h5 {
@@ -211,6 +218,8 @@ h5 {
   transition: 0.3s;
   position: relative;
   bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 .l:hover {
   color: #64ffda;
@@ -220,19 +229,23 @@ h5 {
 }
 .name {
   margin-top: 15px;
-  font-size: 80px;
+  font-size: 56px;
   color: #ccd6f6;
   font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: -40px;
 }
-.occupation {
-  font-size: 80px;
-  color: #a8b2d1;
-  font-weight: 600;
-}
+
 .small-intro {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 100;
   color: #a8b2d1;
+  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* about */
@@ -700,9 +713,7 @@ a:link {
     font-size: 55px;
   }
   .small-intro {
-    width: 700px;
-    height: 30px;
-    font-size: 13px;
+    font-size: 20px;
   }
   /* about */
   .about-outer {
@@ -792,6 +803,9 @@ a:link {
   .about-picture {
     margin-top: 100px;
     border-radius: 5px;
+  }
+  .small-intro {
+    font-size: 15px;
   }
   /* work  */
   .work-outer {
