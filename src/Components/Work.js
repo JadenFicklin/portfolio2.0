@@ -9,7 +9,14 @@ function Work() {
       <div className="work-outer">
         <div className="work-inner">
           <div className="work-header">
-            <span className="number">02. </span>Work
+            <span className="number one">02 </span>
+            <br></br>
+            <span className="about-me-head">
+              <span className="l">W</span>
+              <span className="l">o</span>
+              <span className="l">r</span>
+              <span className="l">k</span>
+            </span>
           </div>
           <div className="euka-outer">
             <a
@@ -30,7 +37,8 @@ function Work() {
                 <span className="number">timeframe of build: </span> 2 weeks{" "}
                 <br></br>
                 <br></br>{" "}
-                <span className="number">main focus of website: </span> CSS
+                <span className="number margin">main focus of website: </span>{" "}
+                CSS
               </div>
               <div className="euka-languages-used">
                 React <span className="space"></span>Express{" "}
@@ -71,7 +79,8 @@ function Work() {
                 <span className="number">timeframe of build: </span> 2 weeks{" "}
                 <br></br>
                 <br></br>
-                <span className="number">main focus of website: </span>SQL
+                <span className="number  margin">main focus of website: </span>
+                SQL
               </div>
               <div className="sopi-languages-used">
                 React<span className="space"></span> Javascript
@@ -136,8 +145,8 @@ function Work() {
                 <span className="number">timeframe of build: </span> 1 week{" "}
                 <br></br>
                 <br></br>{" "}
-                <span className="number">main focus of website: </span> reactive
-                CSS
+                <span className="number  margin">main focus of website: </span>{" "}
+                reactive CSS
               </div>
               <div className="ambience-languages-used">
                 React
