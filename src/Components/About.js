@@ -19,13 +19,21 @@ function About() {
         </div>
         <div className="about-text">
           <div className="part-one">
-            I'm a web developer based in Ogden, Utah. I graduated in the web
-            development track at <a className="devmountain">DevMountain</a> in
-            2022.
+            I'm a web developer based in Ogden, Utah.<br></br> I graduated in
+            the web development track at{" "}
+            <a
+              className="devmountain"
+              href="https://devmountain.com/?utm_source=adwords&utm_medium=ppc&utm_campaign=GoogleAds%20-%20io0_DevMountain%20-%20Struck_Brand%20-%20CON%20-%20CPC&utm_content=exactadgroup_original_poorad&campaignid=12310006501&adgroupid=118484441918&adid=570690892069&utm_term=devmountain&hsa_acc=7536270230&hsa_cam=12310006501&hsa_grp=118484441918&hsa_ad=570690892069&hsa_src=g&hsa_tgt=kwd-300980390522&hsa_kw=devmountain&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwmJeYBhAwEiwAXlg0ARIZ7Lj3d1GKnVtJMDdhH_U0iBmZdOYc9OrfHk0BHlsId_dXW3xj9xoCrZsQAvD_BwE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              DevMountain
+            </a>{" "}
+            in 2022.
           </div>
           <div className="part-two">
             {" "}
-            I enjoy drawing, basketball, and traveling.
+            I enjoy drawing, basketball, and travel.
           </div>
           <div className="part-three">
             {" "}
