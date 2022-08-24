@@ -5,33 +5,40 @@ function About() {
     <div className="about-outer" id="about">
       <div className="about-left">
         <div className="about-me">
-          <span className="number one">01. </span>About Me
+          <span className="number one">01 </span>
+          <br></br>
+          <span className="about-me-head">
+            <span className="l">A</span>
+            <span className="l">b</span>
+            <span className="l">o</span>
+            <span className="l">u</span>
+            <span className="l space">t</span>
+            <span className="l">M</span>
+            <span className="l">e</span>
+          </span>
         </div>
         <div className="about-text">
-          Hello! My name is Jaden and I’ve worked in construction a call center
-          and been a financial manager, however I’ve recently gained an interest
-          in web development back in 2021. My long term goal is to become an
-          expert programmer.
-          <br></br>
-          <br></br>
-          I’ve graduated from Devmountain coding bootcamp in april 2022. And
-          have since been perfecting what I know. I would love to join a team of
-          coders and learn all I can.
-          <br></br>
-          <br></br>
-          My main focus now is to find a company I can see myself being a
-          valuable asset at. Once I’ve established my grounding in anything I
-          quickly adapt and grow.
-          <br></br>
-          <br></br>
-          Here are a few technologies I’ve been working with recently:
-          <br></br>
-          <br></br>
-          JavaScript (ES6+) <br></br>
-          TypeScript<br></br>
-          React<br></br>
-          Node.js<br></br>
-          SQL<br></br>
+          <div className="part-one">
+            I'm a web developer based in Ogden, Utah. I graduated in the web
+            development track at <a className="devmountain">DevMountain</a> in
+            2022.
+          </div>
+          <div className="part-two">
+            {" "}
+            I enjoy drawing, basketball, and traveling.
+          </div>
+          <div className="part-three">
+            {" "}
+            I'm always looking to learn, but am comfortable with:
+            <ul>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>SQL</li>
+              <li>HTML and CSS</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="about-right">

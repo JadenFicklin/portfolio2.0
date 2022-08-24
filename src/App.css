@@ -269,6 +269,33 @@ h5 {
 }
 .about-text {
   color: #a8b2d1;
+  height: 280px;
+  margin-top: -30px;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.part-one,
+.part-two,
+.part-three {
+  width: 100%;
+}
+.part-one {
+  height: 25%;
+  margin-bottom: -40px;
+}
+
+.part-two {
+  height: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.part-three {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .about-right {
   width: 50%;
@@ -284,6 +311,8 @@ h5 {
   background-position: bottom;
   background-repeat: none;
   border-radius: 10px;
+  margin-top: -100px;
+  margin-right: -100px;
 }
 .pic-border {
   width: 303px;
@@ -295,7 +324,13 @@ h5 {
   border-radius: 10px;
   z-index: -1;
 }
-
+.one {
+  font-size: 16px;
+}
+.about-me-head {
+  font-size: 56px;
+  font-weight: bold;
+}
 /* work */
 
 .work-outer {
