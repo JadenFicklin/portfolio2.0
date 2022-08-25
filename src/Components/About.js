@@ -5,8 +5,8 @@ function About() {
     <div className="about-outer" id="about">
       <div className="about-left">
         <div className="about-me">
-          <span className="number one">01 </span>
-          <br></br>
+          <span className="number one about-me-one">01 </span>
+          <br className="break"></br>
           <span className="about-me-head">
             <span className="l">A</span>
             <span className="l">b</span>
