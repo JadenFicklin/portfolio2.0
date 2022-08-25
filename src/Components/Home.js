@@ -6,10 +6,11 @@ import useScrollPosition from "../hooks/useScrollPosition";
 import Work from "./Work";
 import Contact from "./Contact";
 import Links from "./Links";
+import Svg from "./Svg";
+import Viewport from "./Viewport";
 
 function Home() {
   let scrollPosition = useScrollPosition();
-  console.log(scrollPosition);
 
   // function getWidth() {
   //   return Math.max(
@@ -28,6 +29,7 @@ function Home() {
       <div className="home">
         <div className="intro">
           {/* <h5>{getWidth()}px</h5> */}
+          <Svg src={require("../assets/wave.svg").default} class="wave" />
           <h5 className="introduction">Hello</h5>
           <div className="name">
             <span className="l">I</span>
@@ -51,9 +53,15 @@ function Home() {
           </div>
         </div>
       </div>
-      <About />
-      <Work />
-      <Contact />
+      <Viewport>
+        <About />
+      </Viewport>
+      <Viewport>
+        <Work />
+      </Viewport>
+      <Viewport>
+        <Contact />
+      </Viewport>
     </>
   );
 }

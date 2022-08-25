@@ -10,7 +10,10 @@
     opacity: 100%;
   }
 }
-
+#root {
+  position: relative;
+  z-index: -3;
+}
 .introduction {
   animation: 0.8s ease-out 0s 1 slideInFromBottom;
 }
@@ -36,6 +39,8 @@ html {
 
 body {
   background-color: #0a192f;
+  position: relative;
+  z-index: -5;
 }
 
 /* navigation bar */
@@ -189,6 +194,8 @@ nav {
   height: 100vh;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: -3;
 }
 .intro {
   width: 1000px;
@@ -583,13 +590,17 @@ h5 {
 }
 .ambience-left,
 .euka-left,
-.sopi-right {
+.sopi-right,
+.sopi-left,
+.euka-right {
   transition: 0.3s;
 }
 .ambience-left:hover,
-.euka-left:hover {
+.euka-left:hover,
+.sopi-left:hover {
   margin-right: -10px;
 }
+
 .sopi-right:hover {
   margin-left: -10px;
   margin-right: 10px;
@@ -771,6 +782,124 @@ a:link {
 .logo:hover {
   transform: rotate(150deg);
   transition: all 0.3s ease-in-out 0s;
+}
+.wave {
+  position: fixed;
+  top: 150px;
+  width: 100%;
+}
+.wave g path {
+  fill: rgba(255, 255, 255, 0);
+  transition: 0.05s;
+  animation: rainbow-bg 50s linear;
+  animation-iteration-count: infinite;
+}
+
+.wave g path:hover {
+  /* stroke: white; */
+  fill: rgba(255, 255, 255, 0.041);
+  stroke-width: 5;
+}
+
+.wave g path:active {
+  stroke: white;
+  fill: rgba(255, 255, 255, 0.247);
+}
+
+/* wave animation  */
+
+/* @keyframes rainbow-bg {
+  100%,
+  0% {
+    stroke: rgba(255, 0, 0, 0.233);
+  }
+  8% {
+    stroke: rgba(255, 128, 0, 0.363);
+  }
+  16% {
+    stroke: rgba(255, 255, 0, 0.363);
+  }
+  25% {
+    stroke: rgba(128, 255, 0, 0.349);
+  }
+  33% {
+    stroke: rgba(0, 255, 0, 0.363);
+  }
+  41% {
+    stroke: rgba(0, 255, 128, 0.349);
+  }
+  50% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  58% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  66% {
+    stroke: rgba(0, 0, 255, 0.404);
+  }
+  75% {
+    stroke: rgba(128, 0, 255, 0.377);
+  }
+  83% {
+    stroke: rgba(255, 0, 255, 0.377);
+  }
+  91% {
+    stroke: rgba(255, 0, 128, 0.37);
+  }
+} */
+@keyframes rainbow-bg {
+  100%,
+  0% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  8% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  16% {
+    stroke: rgba(0, 0, 255, 0.404);
+  }
+  25% {
+    stroke: rgba(128, 0, 255, 0.377);
+  }
+  33% {
+    stroke: rgba(255, 0, 255, 0.377);
+  }
+  41% {
+    stroke: rgba(255, 0, 128, 0.37);
+  }
+  50% {
+    stroke: rgba(255, 0, 0, 0.233);
+  }
+  58% {
+    stroke: rgba(255, 128, 0, 0.363);
+  }
+  66% {
+    stroke: rgba(255, 255, 0, 0.363);
+  }
+  75% {
+    stroke: rgba(128, 255, 0, 0.349);
+  }
+  83% {
+    stroke: rgba(0, 255, 0, 0.363);
+  }
+  91% {
+    stroke: rgba(0, 255, 128, 0.349);
+  }
+}
+
+.viewport {
+  transition: 1s;
+  position: relative;
+}
+
+.outside-viewport {
+  opacity: 0;
+  top: 50px;
+}
+
+.in-viewport {
+  opacity: 1;
+  top: 0px;
 }
 
 @media screen and (max-width: 1890px) {
