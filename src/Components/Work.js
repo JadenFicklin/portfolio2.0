@@ -9,7 +9,7 @@ function Work() {
       <div className="work-outer">
         <div className="work-inner">
           <div className="work-header">
-            <span className="number one">02 </span>
+            <span className="number one work-number-two">02 </span>
             <br></br>
             <span className="about-me-head">
               <span className="l">W</span>

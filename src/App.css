@@ -1079,6 +1079,7 @@ a:link {
     width: 390px;
     position: absolute;
     top: -280px;
+    z-index: 5;
   }
   /* links */
   .links-outer {
@@ -1156,100 +1157,368 @@ a:link {
     width: 210px;
     height: 210px;
   }
+  /* work  */
+  .work-outer {
+    width: 390px;
+  }
+  .work-number-two {
+    width: 100%;
+  }
+  .work-header {
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .work-inner {
+    margin: 20px;
+  }
+
+  .euka-left,
+  .sopi-right,
+  .ambience-left {
+    height: 120px;
+  }
+  .euka-languages-used {
+    width: 150%;
+    margin-left: -50%;
+  }
 }
 
-/* .about-outer {
-  width: 878px;
-  height: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 300px;
-}
-.about-left {
-  width: 50%;
-}
-.about-me {
-  color: #ccd6f6;
-  font-size: 32px;
-  margin-bottom: 50px;
-}
-.about-text {
-  color: #a8b2d1;
-  height: 280px;
-  margin-top: -30px;
-  font-size: 16px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.part-one,
-.part-two,
-.part-three {
+/* .work-outer {
   width: 100%;
-  letter-spacing: 1px;
-}
-.part-one {
-  height: 25%;
-}
-.devmountain {
-  text-decoration: none;
-  color: #a8b2d1;
-  border-bottom: 1px solid #a8b2d1;
-  transition: 0.3s;
-}
-.devmountain:hover {
-  color: #ccd6f6;
-}
-.part-two {
-  height: 25%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.part-three {
-  height: 50%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.about-right {
-  width: 50%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
-.about-picture {
-  width: 303px;
-  height: 292px;
-  background-image: url("../src/assets/Jaden\ \(3\).jpg");
+.work-inner {
+  width: 50%;
+  height: 90%;
+}
+.work-header {
+  color: white;
+  font-size: 32px;
+}
+
+.euka-outer,
+.sopi-outer,
+.ambience-outer {
+  width: 100%;
+  height: 254px;
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.euka-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../src/assets/Euka.PNG");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
   border-radius: 10px;
-  margin-top: -100px;
-  margin-right: -100px;
-  transition: 0.1s;
+}
+.euka-left:hover,
+.sopi-right:hover,
+.ambience-left:hover {
+  cursor: pointer;
+}
+.euka-right {
+  width: 50%;
+  height: 100%;
+}
+.euka-project-name {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #64ffda;
+  font-size: 13px;
+  font-family: "Fira Code", monospace;
+}
+.euka-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 
-.pic-border {
-  width: 303px;
-  height: 292px;
-  border: 4px solid #64ffda;
-  position: relative;
-  left: 30px;
-  top: 30px;
+.euka-box {
+  width: 120%;
+  height: 143px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
   border-radius: 10px;
-  z-index: -1;
+  margin-left: -79px;
 }
-.about-picture:hover {
-  width: 313px;
-  height: 302px;
+.euka-languages-used {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
+  font-family: "Fira Code", monospace;
 }
-.one {
-  font-size: 16px;
+.euka-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.about-me-head {
-  font-size: 56px;
-  font-weight: bold;
+.euka-links-right {
+  width: 90px;
+  height: 100%;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.euka-video,
+.euka-github {
+  width: 35px;
+  height: 35px;
+}
+.euka-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  color: #a8b2d1;
+  transition: 0.3s;
+}
+.icon-link:hover {
+  color: #64ffda;
+}
+.sopi-outer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sopi-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sopi-project-name {
+  width: 100%;
+  height: 20px;
+  padding-left: 20px;
+  color: #64ffda;
+  font-size: 13px;
+  font-family: "Fira Code", monospace;
+}
+
+.sopi-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  padding-left: 20px;
+}
+.sopi-box {
+  width: 120%;
+  height: 143px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  margin-right: -79px;
+}
+.sopi-languages-used {
+  width: 100%;
+  height: 20px;
+  padding-left: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
+  font-family: "Fira Code", monospace;
+}
+
+.sopi-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sopi-links-right {
+  width: 120px;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sopi-video,
+.sopi-github {
+  width: 35px;
+  height: 35px;
+}
+.sopi-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  color: #a8b2d1;
+  transition: 0.3s;
+}
+.icon-link:hover {
+  color: #64ffda;
+}
+
+.sopi-right {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../src/assets/sopi.JPG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 10px;
+}
+
+.ambience-outer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ambience-right {
+  width: 50%;
+  height: 100%;
+}
+.ambience-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("../src/assets/ambience2.JPG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.ambience-left,
+.euka-left,
+.sopi-right,
+.sopi-left,
+.euka-right {
+  transition: 0.3s;
+}
+.ambience-left:hover,
+.euka-left:hover,
+.sopi-left:hover {
+  margin-right: -10px;
+}
+
+.sopi-right:hover {
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.ambience-project-name {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #64ffda;
+  font-size: 13px;
+  font-family: "Fira Code", monospace;
+}
+.ambience-name {
+  width: 100%;
+  height: 40px;
+  color: #ccd6f6;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.ambience-box {
+  width: 120%;
+  height: 143px;
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -79px;
+  padding-bottom: 10px;
+}
+.ambience-languages-used {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #ccd6f6;
+  margin-top: 5px;
+  font-family: "Fira Code", monospace;
+}
+.ambience-links {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ambience-links-right {
+  width: 90px;
+  height: 100%;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ambience-website,
+.ambience-github {
+  width: 35px;
+  height: 35px;
+}
+.ambience-website {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+.ambience-github {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.euka-links,
+.sopi-links,
+.ambience-links {
+  margin-top: 10px;
+}
+.euka-video:hover,
+.euka-github:hover,
+.sopi-video:hover,
+.sopi-website:hover,
+.sopi-github:hover,
+.ambience-website:hover,
+.ambience-github:hover {
+  transition: 0.3s;
+  margin-top: -5px;
 } */
