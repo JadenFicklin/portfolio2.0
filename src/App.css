@@ -236,6 +236,9 @@ h5 {
   bottom: 10px;
   cursor: auto;
 }
+.l:active {
+  color: #4de0be;
+}
 .name {
   margin-top: 15px;
   font-size: 56px;
@@ -809,7 +812,7 @@ a:link {
 
 /* wave animation  */
 
-@keyframes rainbow-bg {
+/* @keyframes rainbow-bg {
   100%,
   0% {
     stroke: rgba(0, 255, 255, 0.377);
@@ -845,6 +848,33 @@ a:link {
     stroke: rgba(0, 255, 0, 0.363);
   }
   91% {
+    stroke: rgba(0, 255, 128, 0.349);
+  }
+} */
+@keyframes rainbow-bg {
+  100%,
+  0% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  12% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  24% {
+    stroke: rgba(0, 0, 255, 0.404);
+  }
+  36% {
+    stroke: rgba(128, 0, 255, 0.377);
+  }
+  48% {
+    stroke: rgba(0, 0, 255, 0.404);
+  }
+  60% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  72% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  84% {
     stroke: rgba(0, 255, 128, 0.349);
   }
 }
