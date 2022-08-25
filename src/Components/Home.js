@@ -21,6 +21,8 @@ function Home() {
   //     document.documentElement.clientWidth
   //   );
   // }
+
+  // console will throw an error if scroll position is not called thus the turnary below
   if (scrollPosition === 0) {
     console.log(scrollPosition);
   }
