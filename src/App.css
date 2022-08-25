@@ -1021,7 +1021,6 @@ a:link {
 @media screen and (max-width: 500px) {
   html {
     width: 390px;
-    background-color: white;
     overflow-y: scroll;
     overflow-x: hidden;
   }
@@ -1080,7 +1079,6 @@ a:link {
     width: 390px;
     position: absolute;
     top: -280px;
-    z-index: 5;
   }
   /* links */
   .links-outer {
