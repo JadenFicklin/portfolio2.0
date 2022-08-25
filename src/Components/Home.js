@@ -21,6 +21,9 @@ function Home() {
   //     document.documentElement.clientWidth
   //   );
   // }
+  if (scrollPosition === 0) {
+    console.log(scrollPosition);
+  }
 
   return (
     <>

@@ -784,7 +784,7 @@ a:link {
   transition: all 0.3s ease-in-out 0s;
 }
 .wave {
-  position: fixed;
+  position: absolute;
   top: 150px;
   width: 100%;
 }
@@ -808,45 +808,6 @@ a:link {
 
 /* wave animation  */
 
-/* @keyframes rainbow-bg {
-  100%,
-  0% {
-    stroke: rgba(255, 0, 0, 0.233);
-  }
-  8% {
-    stroke: rgba(255, 128, 0, 0.363);
-  }
-  16% {
-    stroke: rgba(255, 255, 0, 0.363);
-  }
-  25% {
-    stroke: rgba(128, 255, 0, 0.349);
-  }
-  33% {
-    stroke: rgba(0, 255, 0, 0.363);
-  }
-  41% {
-    stroke: rgba(0, 255, 128, 0.349);
-  }
-  50% {
-    stroke: rgba(0, 255, 255, 0.377);
-  }
-  58% {
-    stroke: rgba(0, 128, 255, 0.39);
-  }
-  66% {
-    stroke: rgba(0, 0, 255, 0.404);
-  }
-  75% {
-    stroke: rgba(128, 0, 255, 0.377);
-  }
-  83% {
-    stroke: rgba(255, 0, 255, 0.377);
-  }
-  91% {
-    stroke: rgba(255, 0, 128, 0.37);
-  }
-} */
 @keyframes rainbow-bg {
   100%,
   0% {
