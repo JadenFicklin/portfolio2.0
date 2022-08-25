@@ -40,7 +40,6 @@ function About() {
             I'm always looking to learn, but am comfortable with:
             <ul>
               <li>JavaScript (ES6+)</li>
-              <li>TypeScript</li>
               <li>React</li>
               <li>Node.js</li>
               <li>SQL</li>
