@@ -1018,8 +1018,41 @@ a:link {
 }
 
 @media screen and (max-width: 390px) {
+  html {
+    width: 390px;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
   /* nav */
+  .outer {
+    width: 390px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .left {
+    height: 100%;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 10px;
+  }
+  .letter {
+    font-size: 18px;
+    position: absolute;
+    left: 32px;
+    top: 16px;
+  }
 
+  .right {
+    width: 340px;
+  }
+  .resume {
+    height: 30px;
+    width: 70px;
+  }
   /* home */
   .intro {
     margin-top: 180px;
@@ -1047,4 +1080,71 @@ a:link {
     position: absolute;
     top: -280px;
   }
+  /* links */
+  .links-outer {
+    position: fixed;
+    top: 530px;
+    left: 70px;
+    width: 240px;
+    height: 40px;
+    border-bottom: 1px solid #a8b2d152;
+    padding-bottom: 10px;
+  }
+  .link {
+    width: 25%;
+    height: 100%;
+  }
+  .line {
+    width: 0px;
+    height: 0px;
+  }
 }
+
+/* .links-outer {
+  position: fixed;
+  width: 40px;
+  height: 350px;
+  left: 3.5%;
+  bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  color: #ccd6f6;
+  transition: 0.3s;
+}
+.icon:hover {
+  color: #64ffda;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.link {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.github,
+.linkedin,
+.facebook,
+.email {
+  width: 60%;
+  height: 50%;
+}
+.line {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -12px;
+}
+.line-inner {
+  width: 2px;
+  height: 100%;
+  background-color: #ccd6f6;
+} */
