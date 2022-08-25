@@ -35,6 +35,7 @@ function Home() {
         <div className="intro">
           {/* <h5>{getWidth()}px</h5> */}
           <Svg src={require("../assets/wave.svg").default} class="wave" />
+          {/* <Svg src={require("../assets/wave.svg").default} class="wave-two" /> */}
           <h5 className="introduction">Hello</h5>
           <div className="name">
             <span className="l">I</span>

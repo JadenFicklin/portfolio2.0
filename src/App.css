@@ -795,7 +795,7 @@ a:link {
 .wave g path {
   fill: rgba(255, 255, 255, 0);
   transition: 0.05s;
-  animation: rainbow-bg 50s linear;
+  animation: rainbow-bg 40s linear;
   animation-iteration-count: infinite;
 }
 
@@ -806,6 +806,30 @@ a:link {
 }
 
 .wave g path:active {
+  stroke: white;
+  fill: rgba(255, 255, 255, 0.247);
+}
+.wave-two {
+  position: absolute;
+  top: 900px;
+  transform: rotate(320deg);
+  width: 90%;
+  z-index: 0;
+}
+.wave-two g path {
+  fill: rgba(255, 255, 255, 0);
+  transition: 0.05s;
+  animation: rainbow-bg-two 40s linear;
+  animation-iteration-count: infinite;
+}
+
+.wave-two g path:hover {
+  /* stroke: white; */
+  fill: rgba(255, 255, 255, 0.041);
+  stroke-width: 5;
+}
+
+.wave-two g path:active {
   stroke: white;
   fill: rgba(255, 255, 255, 0.247);
 }
@@ -851,7 +875,85 @@ a:link {
     stroke: rgba(0, 255, 128, 0.349);
   }
 } */
+@keyframes rainbow-bg-two {
+  100%,
+  0% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  8% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  16% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  25% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+  33% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  41% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  50% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  58% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+  66% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  75% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  83% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  91% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+}
 @keyframes rainbow-bg {
+  100%,
+  0% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  8% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  16% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+  25% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  33% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  41% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  50% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+  58% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  66% {
+    stroke: rgba(0, 255, 255, 0.377);
+  }
+  75% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+  83% {
+    stroke: rgba(155, 255, 255, 0.377);
+  }
+  91% {
+    stroke: rgba(0, 128, 255, 0.39);
+  }
+}
+/* @keyframes rainbow-bg {
   100%,
   0% {
     stroke: rgba(0, 255, 255, 0.377);
@@ -877,7 +979,7 @@ a:link {
   84% {
     stroke: rgba(0, 255, 128, 0.349);
   }
-}
+} */
 
 .viewport {
   transition: 1s;
