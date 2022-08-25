@@ -1018,7 +1018,7 @@ a:link {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
   html {
     width: 390px;
     background-color: white;
