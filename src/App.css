@@ -269,6 +269,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 300px;
   margin-bottom: 300px;
 }
 .about-left {
@@ -1023,7 +1024,6 @@ a:link {
   }
   /* about */
   .about-outer {
-    /* background-color: white; */
     width: 70%;
     margin-top: 200px;
   }

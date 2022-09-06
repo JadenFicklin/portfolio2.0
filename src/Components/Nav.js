@@ -19,14 +19,14 @@ function Nav() {
         <div className="middle"></div>
         <div className="right">
           {/* <a href="#about"> */}
-          <div className="about" onClick={() => changeScroll(750)}>
+          <div className="about" onClick={() => changeScroll(1050)}>
             <span className="number">01. </span>About
           </div>
           {/* </a> */}
-          <div className="work" onClick={() => changeScroll(1780)}>
+          <div className="work" onClick={() => changeScroll(2080)}>
             <span className="number">02. </span>Work
           </div>
-          <div className="contact" onClick={() => changeScroll(3118)}>
+          <div className="contact" onClick={() => changeScroll(3418)}>
             <span className="number">03. </span>Contact
           </div>
           <a
