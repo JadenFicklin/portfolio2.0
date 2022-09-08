@@ -8,9 +8,12 @@ import Contact from "./Contact";
 import Links from "./Links";
 import Svg from "./Svg";
 import Viewport from "./Viewport";
+import { useState } from "react";
+import WorkOuter from "./work/WorkOuter";
 
 function Home() {
   let scrollPosition = useScrollPosition();
+  const [workDesignOne, setWorkDesignOne] = useState(true);
 
   // function getWidth() {
   //   return Math.max(
@@ -62,9 +65,7 @@ function Home() {
       <Viewport>
         <About />
       </Viewport>
-      <Viewport>
-        <Work />
-      </Viewport>
+      <Viewport>{workDesignOne ? <Work /> : <WorkOuter />}</Viewport>
       <Viewport>
         <Contact />
       </Viewport>
