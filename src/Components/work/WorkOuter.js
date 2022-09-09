@@ -1,11 +1,7 @@
 import React from "react";
-// import { useState } from "react";
 import WorkComponent from "./WorkComponent";
 
 function WorkOuter() {
-  // const [ambience, setAmbience] = useState(false);
-  // console.log(ambience);
-
   return (
     <>
       <div className="work-two-outer">
@@ -22,16 +18,42 @@ function WorkOuter() {
         </div>
         <div className="work-two-bottom">
           <div className="work-two-bottom-left">
-            <WorkComponent name="Ambience" />
-            <WorkComponent name="Sopi" />
-            <WorkComponent name="Euka" />
-            <WorkComponent name="Forms" />
-            <WorkComponent name="Shop" />
-            <WorkComponent name="Daccord" />
-          </div>
-          <div className="work-two-bottom-right">
-            <div className="work-two-bottom-right-top"></div>
-            <div className="work-two-bottom-right-bottom"></div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Ambience"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Sopi"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Euka"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Forms"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Shop"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
+            <div className="work-component-outer">
+              <WorkComponent
+                name="Daccord"
+                backgroundimage="../src/assets/ambience2.JPG"
+              />
+            </div>
           </div>
         </div>
       </div>
