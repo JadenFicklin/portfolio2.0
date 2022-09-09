@@ -1,4 +1,5 @@
 import React from "react";
+import WorkComponent from "./WorkComponent";
 
 function WorkOuter() {
   return (
@@ -16,7 +17,14 @@ function WorkOuter() {
           </div>
         </div>
         <div className="work-two-bottom">
-          <div className="work-two-bottom-left"></div>
+          <div className="work-two-bottom-left">
+            <WorkComponent name="Ambience" />
+            <WorkComponent name="Sopi" />
+            <WorkComponent name="Euka" />
+            <WorkComponent name="Forms" />
+            <WorkComponent name="Shop" />
+            <WorkComponent name="Daccord" />
+          </div>
           <div className="work-two-bottom-right">
             <div className="work-two-bottom-right-top"></div>
             <div className="work-two-bottom-right-bottom"></div>

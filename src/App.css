@@ -702,9 +702,8 @@ h5 {
 /* work design 2  */
 
 .work-two-outer {
-  width: 60%;
+  width: 50%;
   height: 700px;
-  background-color: #112240;
   margin: 0 auto;
   position: relative;
   top: 150px;
@@ -716,12 +715,84 @@ h5 {
 .work-two-bottom {
   width: 100%;
   height: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-two-bottom-left {
   width: 40%;
-  height: 100%;
-  border: 1px solid red;
+  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-top: 1px solid #b8b8b8;
 }
+.work-two-bottom-right {
+  width: 60%;
+  height: 100%;
+}
+.work-two-bottom-right-top {
+  width: 100%;
+  height: 90%;
+}
+.work-two-bottom-right-bottom {
+  width: 100%;
+  height: 10%;
+}
+
+/* work components */
+
+.work-component-outer {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #b8b8b8;
+  color: #b8b8b8;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-component-left {
+  font-size: 20px;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.work-component-left:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.13);
+}
+.work-component-right {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-link-page,
+.work-link-github {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.work-link-page:hover,
+.work-link-github:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+  cursor: pointer;
+}
+.link-icon {
+  width: 40%;
+  height: 40%;
+  transition: 0.3s;
+}
+.link-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
 /* contact */
 
 .contact-outer {
