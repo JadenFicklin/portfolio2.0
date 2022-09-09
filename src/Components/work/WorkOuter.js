@@ -1,7 +1,11 @@
 import React from "react";
+// import { useState } from "react";
 import WorkComponent from "./WorkComponent";
 
 function WorkOuter() {
+  // const [ambience, setAmbience] = useState(false);
+  // console.log(ambience);
+
   return (
     <>
       <div className="work-two-outer">

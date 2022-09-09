@@ -13,7 +13,7 @@ import WorkOuter from "./work/WorkOuter";
 
 function Home() {
   let scrollPosition = useScrollPosition();
-  const [workDesignOne, setWorkDesignOne] = useState(true);
+  const [workDesignOne] = useState(true);
 
   // function getWidth() {
   //   return Math.max(

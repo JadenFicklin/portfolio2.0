@@ -9,8 +9,7 @@ function WorkComponent(props) {
         <div className="work-component-left">{props.name}</div>
         <div className="work-component-right">
           <div className="work-link-page">
-            {" "}
-            <FiExternalLink className="link-icon" />{" "}
+            <FiExternalLink className="link-icon" />
           </div>
           <div className="work-link-github">
             <FiGithub className="link-icon" />
