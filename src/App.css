@@ -327,7 +327,7 @@ h5 {
 .about-picture {
   width: 303px;
   height: 292px;
-  background-image: url("../src/assets/Jaden\ \(3\).jpg");
+  background-image: url("../src/assets/jaden.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
@@ -390,7 +390,7 @@ h5 {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  background-image: url("../src/assets/Euka.PNG");
+  background-image: url("../src/assets/euka.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
@@ -567,7 +567,7 @@ h5 {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  background-image: url("../src/assets/sopi.JPG");
+  background-image: url("../src/assets/sopi.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
@@ -586,7 +586,7 @@ h5 {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  background-image: url("../src/assets/ambience2.JPG");
+  background-image: url("../src/assets/ambience.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
@@ -712,6 +712,8 @@ h5 {
   width: 100%;
   height: 20%;
 }
+/* work bottom */
+
 .work-two-bottom {
   width: 100%;
   height: min-content;
@@ -726,39 +728,37 @@ h5 {
   align-items: flex-start;
   border-top: 1px solid #b8b8b8;
 }
-
-/* work components */
-
-.work-component-outer {
+.work-two-component {
   width: 100%;
   height: 50px;
   border-bottom: 1px solid #b8b8b8;
-  color: #b8b8b8;
   display: flex;
   flex-wrap: wrap;
 }
-.work-component-left {
-  font-size: 20px;
+.work-two-component-left {
   width: 75%;
   height: 100%;
+  color: #b8b8b8;
+  transition: 0.3s;
+  font-size: 20px;
+  padding-left: 20px;
   display: flex;
   align-items: center;
-  padding-left: 20px;
   transition: 0.3s;
 }
-.work-component-left:hover {
-  color: white;
+.work-two-component-left:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: rgba(255, 255, 255, 0.185);
+  color: white;
 }
-.work-component-right {
+.work-two-component-right {
   width: 25%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.work-link-page,
-.work-link-github {
+.work-two-component-link-page,
+.work-two-component-link-github {
   width: 50%;
   height: 100%;
   display: flex;
@@ -766,32 +766,62 @@ h5 {
   justify-content: center;
   transition: 0.3s;
 }
-.work-link-page:hover,
-.work-link-github:hover {
-  background-color: rgba(255, 255, 255, 0.13);
-  cursor: pointer;
+.work-two-component-link-page:hover,
+.work-two-component-link-github:hover {
+  background-color: rgba(255, 255, 255, 0.185);
 }
-.link-icon {
-  width: 40%;
-  height: 40%;
+.links-icon {
+  width: 50%;
+  height: 50%;
+  color: #b8b8b8;
   transition: 0.3s;
 }
-.link-icon:hover {
+.links-icon:hover {
   color: white;
   cursor: pointer;
 }
-.second-box {
-  width: 530px;
+.work-two-bottom-right {
+  width: 60%;
   height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  /* background-image: url("../src/assets/ambience2.JPG"); */
+  display: flex;
+  justify-content: flex-end;
+}
+.ambience-true,
+.sopi-true,
+.euka-true,
+.forms-true,
+.shoes-true,
+.daccord-true {
+  width: 80%;
+  height: 90%;
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
-  border-radius: 10px;
-  margin: 0 auto;
+  border-radius: 5px;
+  transition: 1s;
+}
+.ambience-true {
+  background-image: url("../src/assets/ambience.jpg");
+}
+.sopi-true {
+  background-image: url("../src/assets/sopi.jpg");
+}
+.euka-true {
+  background-image: url("../src/assets/euka.png");
+}
+.forms-true {
+  background-image: url("../src/assets/euka.png");
+}
+.shoes-true {
+  background-image: url("../src/assets/ambience.jpg");
+}
+.daccord-true {
+  background-image: url("../src/assets/daccord.jpg");
+}
+.work-false {
+  opacity: 80%;
+  transition: 1s;
+  border-radius: 5px;
 }
 /* contact */
 

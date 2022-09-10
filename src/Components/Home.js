@@ -15,17 +15,6 @@ function Home() {
   let scrollPosition = useScrollPosition();
   const [workDesignOne] = useState(true);
 
-  // function getWidth() {
-  //   return Math.max(
-  //     document.body.scrollWidth,
-  //     document.documentElement.scrollWidth,
-  //     document.body.offsetWidth,
-  //     document.documentElement.offsetWidth,
-  //     document.documentElement.clientWidth
-  //   );
-  // }
-  //
-  // console will throw an error if scroll position is not called thus the turnary below
   if (scrollPosition === 0) {
     console.log(scrollPosition);
   }
@@ -36,9 +25,7 @@ function Home() {
       <Links />
       <div className="home">
         <div className="intro">
-          {/* <h5>{getWidth()}px</h5> */}
           <Svg src={require("../assets/wave.svg").default} class="wave" />
-          {/* <Svg src={require("../assets/wave.svg").default} class="wave-two" /> */}
           <h5 className="introduction">Hello</h5>
           <div className="name">
             <span className="l">I</span>
