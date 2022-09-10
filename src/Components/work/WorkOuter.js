@@ -116,14 +116,31 @@ function WorkOuter() {
               onMouseEnter={() => setForms(true)}
               onMouseLeave={() => setForms(false)}
             >
-              <div className="work-two-component-left">Forms</div>
+              <a
+                className="work-two-component-left"
+                href="https://github.com/JadenFicklin/fav-movie-form"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Forms
+              </a>
               <div className="work-two-component-right">
-                <div className="work-two-component-link-page">
+                <a
+                  className="work-two-component-link-page"
+                  href="https://github.com/JadenFicklin/fav-movie-form"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiExternalLink className="links-icon" />
-                </div>
-                <div className="work-two-component-link-github">
+                </a>
+                <a
+                  className="work-two-component-link-github"
+                  href="https://github.com/JadenFicklin/fav-movie-form"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiGithub className="links-icon" />
-                </div>
+                </a>
               </div>
             </div>
             <div
@@ -131,14 +148,31 @@ function WorkOuter() {
               onMouseEnter={() => setShoes(true)}
               onMouseLeave={() => setShoes(false)}
             >
-              <div className="work-two-component-left">Shoes shop</div>
+              <a
+                className="work-two-component-left"
+                href="https://github.com/JadenFicklin/stripe"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Shoes shop
+              </a>
               <div className="work-two-component-right">
-                <div className="work-two-component-link-page">
+                <a
+                  className="work-two-component-link-page"
+                  href="https://github.com/JadenFicklin/stripe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiExternalLink className="links-icon" />
-                </div>
-                <div className="work-two-component-link-github">
+                </a>
+                <a
+                  className="work-two-component-link-github"
+                  href="https://github.com/JadenFicklin/stripe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiGithub className="links-icon" />
-                </div>
+                </a>
               </div>
             </div>
             <div
@@ -146,14 +180,31 @@ function WorkOuter() {
               onMouseEnter={() => setDaccord(true)}
               onMouseLeave={() => setDaccord(false)}
             >
-              <div className="work-two-component-left">Daccord</div>
+              <a
+                className="work-two-component-left"
+                href="https://daccord.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Daccord
+              </a>
               <div className="work-two-component-right">
-                <div className="work-two-component-link-page">
+                <a
+                  className="work-two-component-link-page"
+                  href="https://daccord.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiExternalLink className="links-icon" />
-                </div>
-                <div className="work-two-component-link-github">
+                </a>
+                <a
+                  className="work-two-component-link-github"
+                  href="https://github.com/JadenFicklin/daccord-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiGithub className="links-icon" />
-                </div>
+                </a>
               </div>
             </div>
           </div>

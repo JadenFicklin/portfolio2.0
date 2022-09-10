@@ -702,7 +702,7 @@ h5 {
 /* work design 2  */
 
 .work-two-outer {
-  width: 50%;
+  width: 48%;
   height: 700px;
   margin: 0 auto;
   position: relative;
@@ -810,10 +810,10 @@ h5 {
   background-image: url("../src/assets/euka.png");
 }
 .forms-true {
-  background-image: url("../src/assets/euka.png");
+  background-image: url("../src/assets/forms.JPG");
 }
 .shoes-true {
-  background-image: url("../src/assets/ambience.jpg");
+  background-image: url("../src/assets/shoes.JPG");
 }
 .daccord-true {
   background-image: url("../src/assets/daccord.jpg");
