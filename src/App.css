@@ -785,6 +785,7 @@ h5 {
   height: 300px;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .ambience-true,
 .sopi-true,
@@ -792,7 +793,7 @@ h5 {
 .forms-true,
 .shoes-true,
 .daccord-true {
-  width: 80%;
+  width: 85%;
   height: 90%;
   background-size: cover;
   background-position: bottom;
@@ -822,6 +823,25 @@ h5 {
   opacity: 80%;
   transition: 1s;
   border-radius: 5px;
+}
+.ambience-text,
+.sopi-text,
+.euka-text,
+.forms-text,
+.shoes-text,
+.daccord-text {
+  height: 10%;
+  width: 85%;
+  font-size: 14px;
+  color: #b8b8b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.forms-text,
+.daccord-text {
+  margin-top: 10px;
 }
 /* contact */
 

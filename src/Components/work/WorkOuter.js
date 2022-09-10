@@ -27,6 +27,8 @@ function WorkOuter() {
         </div>
         <div className="work-two-bottom">
           <div className="work-two-bottom-left">
+            {/* ambience */}
+
             <a
               className="work-two-component work-two-component-one"
               onMouseEnter={() => setAmbience(true)}
@@ -55,6 +57,9 @@ function WorkOuter() {
                 </a>
               </div>
             </a>
+
+            {/* sopi  */}
+
             <a
               className="work-two-component work-two-component-two"
               onMouseEnter={() => setSopi(true)}
@@ -83,6 +88,9 @@ function WorkOuter() {
                 </a>
               </div>
             </a>
+
+            {/* euka  */}
+
             <a
               className="work-two-component work-two-component-three"
               onMouseEnter={() => setEuka(true)}
@@ -111,6 +119,9 @@ function WorkOuter() {
                 </a>
               </div>
             </a>
+
+            {/* forms */}
+
             <div
               className="work-two-component work-two-component-four"
               onMouseEnter={() => setForms(true)}
@@ -143,6 +154,9 @@ function WorkOuter() {
                 </a>
               </div>
             </div>
+
+            {/* shoes */}
+
             <div
               className="work-two-component work-two-component-five"
               onMouseEnter={() => setShoes(true)}
@@ -175,6 +189,9 @@ function WorkOuter() {
                 </a>
               </div>
             </div>
+
+            {/* daccord */}
+
             <div
               className="work-two-component work-two-component-six"
               onMouseEnter={() => setDaccord(true)}
@@ -208,34 +225,72 @@ function WorkOuter() {
               </div>
             </div>
           </div>
+          {/* end of link components */}
+
+          {/* displayed pictures  */}
           <div className="work-two-bottom-right">
             {ambience ? (
-              <div className="ambience-true"></div>
+              <>
+                <div className="ambience-true"></div>
+                <div className="ambience-text">
+                  Ambience is a website developed to adjust enjoyable ambient
+                  sounds.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
             {sopi ? (
-              <div className="sopi-true"></div>
+              <>
+                <div className="sopi-true"></div>
+                <div className="sopi-text">
+                  Sopi is a socializing website designed to upload and rate
+                  videos.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
             {euka ? (
-              <div className="euka-true"></div>
+              <>
+                <div className="euka-true"></div>
+                <div className="euka-text">
+                  Euka is an ecommerce website designed to market shoes.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
             {forms ? (
-              <div className="forms-true"></div>
+              <>
+                <div className="forms-true"></div>
+                <div className="forms-text">
+                  Created to demonstrate ability to capture data using SQL and
+                  then display captured data.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
             {shoes ? (
-              <div className="shoes-true"></div>
+              <>
+                <div className="shoes-true"></div>
+                <div className="shoes-text">
+                  Created to demonstrate ability to accept payments using
+                  Stripe.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
             {daccord ? (
-              <div className="daccord-true"></div>
+              <>
+                <div className="daccord-true"></div>
+                <div className="daccord-text">
+                  Created to demonstrate ability to create 3D interactive
+                  objects using Spline.
+                </div>
+              </>
             ) : (
               <div className="work-false"></div>
             )}
