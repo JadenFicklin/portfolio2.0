@@ -18,7 +18,7 @@ function Home() {
   if (scrollPosition === 0) {
     console.log(scrollPosition);
   }
-
+  console.log("test");
   return (
     <>
       <Nav />
