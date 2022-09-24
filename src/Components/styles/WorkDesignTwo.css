@@ -1,0 +1,145 @@
+/* work design 2  */
+/* work design 2  */
+/* work design 2  */
+/* work design 2  */
+/* work design 2  */
+/* work design 2  */
+/* work design 2  */
+
+.work-two-outer {
+  width: 48%;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+.work-two-top {
+  width: 100%;
+  height: 20%;
+}
+/* work bottom */
+
+.work-two-bottom {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-two-bottom-left {
+  width: 40%;
+  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-top: 1px solid #b8b8b8;
+}
+.work-two-component {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #b8b8b8;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-two-component-left {
+  width: 75%;
+  height: 100%;
+  color: #b8b8b8;
+  transition: 0.3s;
+  font-size: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.work-two-component-left:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.185);
+  color: white;
+}
+.work-two-component-right {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-two-component-link-page,
+.work-two-component-link-github {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.work-two-component-link-page:hover,
+.work-two-component-link-github:hover {
+  background-color: rgba(255, 255, 255, 0.185);
+}
+.links-icon {
+  width: 50%;
+  height: 50%;
+  color: #b8b8b8;
+  transition: 0.3s;
+}
+.links-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+.work-two-bottom-right {
+  width: 60%;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.explore-true,
+.beauty-true,
+.euka-true,
+.forms-true,
+.shoes-true,
+.daccord-true {
+  width: 85%;
+  height: 90%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+.explore-true {
+  background-image: url("../../assets/Explore-art.JPG");
+}
+.beauty-true {
+  background-image: url("../../assets/Beauty-by-kerrie.JPG");
+}
+
+.work-false {
+  opacity: 80%;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.explore-text,
+.beauty-text,
+.euka-text,
+.forms-text,
+.shoes-text,
+.daccord-text {
+  height: 10%;
+  width: 85%;
+  font-size: 14px;
+  color: #b8b8b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.forms-text,
+.daccord-text {
+  margin-top: 10px;
+}
+/* end of work design two  */
+/* end of work design two  */
+/* end of work design two  */
+/* end of work design two  */
+/* end of work design two  */
