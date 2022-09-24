@@ -3,6 +3,7 @@ import "../styles/WorkDesignTwo.css";
 import { useState } from "react";
 import { FiExternalLink } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 function WorkOuter() {
   const [explore, setExplore] = useState(false);
@@ -42,6 +43,14 @@ function WorkOuter() {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <AiOutlineQuestionCircle className="links-icon" />
+                </a>
+                <a
+                  className="work-two-component-link-page"
+                  href="https://explore-art.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FiExternalLink className="links-icon" />
                 </a>
                 <a
@@ -67,6 +76,14 @@ function WorkOuter() {
             >
               <div className="work-two-component-left">Beauty by Kerrie</div>
               <div className="work-two-component-right">
+                <a
+                  className="work-two-component-link-page"
+                  href="https://explore-art.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineQuestionCircle className="links-icon" />
+                </a>
                 <a
                   className="work-two-component-link-page"
                   href="https://beauty-by-kerrie.netlify.app/"
