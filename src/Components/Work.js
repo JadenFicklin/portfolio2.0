@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineYoutube } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -75,7 +74,7 @@ function Work() {
               <div className="beauty-box">
                 {" "}
                 Beauty by Kerrie is a freelance project built to help customers
-                seeking cosmetic tattoos. <br></br>
+                seeking cosmetic tattoos. (work in progress)<br></br>
                 <br></br>
                 <span className="number">timeframe of build: </span> 3 days{" "}
                 <br></br>
