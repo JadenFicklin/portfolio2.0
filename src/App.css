@@ -377,8 +377,8 @@ h5 {
   font-size: 32px;
 }
 
-.euka-outer,
-.sopi-outer,
+.explore-outer,
+.beauty-outer,
 .ambience-outer {
   width: 100%;
   height: 254px;
@@ -386,26 +386,26 @@ h5 {
   display: flex;
   flex-wrap: wrap;
 }
-.euka-left {
+.explore-left {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  background-image: url("../src/assets/euka.png");
+  background-image: url("../src/assets/Explore-art-two.JPG");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
   border-radius: 10px;
 }
-.euka-left:hover,
-.sopi-right:hover,
+.explore-left:hover,
+.beauty-right:hover,
 .ambience-left:hover {
   cursor: pointer;
 }
-.euka-right {
+.explore-right {
   width: 50%;
   height: 100%;
 }
-.euka-project-name {
+.explore-project-name {
   width: 100%;
   height: 20px;
   display: flex;
@@ -415,7 +415,7 @@ h5 {
   font-size: 13px;
   font-family: "Fira Code", monospace;
 }
-.euka-name {
+.explore-name {
   width: 100%;
   height: 40px;
   color: #ccd6f6;
@@ -425,7 +425,7 @@ h5 {
   padding-right: 20px;
 }
 
-.euka-box {
+.explore-box {
   width: 120%;
   height: 143px;
   background-color: #112240;
@@ -434,7 +434,7 @@ h5 {
   border-radius: 10px;
   margin-left: -79px;
 }
-.euka-languages-used {
+.explore-languages-used {
   width: 100%;
   height: 20px;
   display: flex;
@@ -444,14 +444,14 @@ h5 {
   margin-top: 5px;
   font-family: "Fira Code", monospace;
 }
-.euka-links {
+.explore-links {
   width: 100%;
   height: 35px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.euka-links-right {
+.explore-links-right {
   width: 90px;
   height: 100%;
   margin-right: 15px;
@@ -459,12 +459,12 @@ h5 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.euka-video,
-.euka-github {
+.explore-video,
+.explore-github {
   width: 35px;
   height: 35px;
 }
-.euka-github {
+.explore-github {
   width: 25px;
   height: 25px;
   margin-top: 5px;
@@ -479,20 +479,20 @@ h5 {
 .icon-link:hover {
   color: #64ffda;
 }
-.sopi-outer {
+.beauty-outer {
   display: flex;
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.sopi-left {
+.beauty-left {
   width: 50%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.sopi-project-name {
+.beauty-project-name {
   width: 100%;
   height: 20px;
   padding-left: 20px;
@@ -501,14 +501,14 @@ h5 {
   font-family: "Fira Code", monospace;
 }
 
-.sopi-name {
+.beauty-name {
   width: 100%;
   height: 40px;
   color: #ccd6f6;
   font-size: 32px;
   padding-left: 20px;
 }
-.sopi-box {
+.beauty-box {
   width: 120%;
   height: 143px;
   background-color: #112240;
@@ -518,7 +518,7 @@ h5 {
   position: relative;
   margin-right: -79px;
 }
-.sopi-languages-used {
+.beauty-languages-used {
   width: 100%;
   height: 20px;
   padding-left: 20px;
@@ -527,27 +527,27 @@ h5 {
   font-family: "Fira Code", monospace;
 }
 
-.sopi-links {
+.beauty-links {
   width: 100%;
   height: 35px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.sopi-links-right {
-  width: 120px;
+.beauty-links-right {
+  width: 80px;
   height: 100%;
   margin-left: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.sopi-video,
-.sopi-github {
+.beauty-video,
+.beauty-github {
   width: 35px;
   height: 35px;
 }
-.sopi-github {
+.beauty-github {
   width: 25px;
   height: 25px;
   margin-top: 5px;
@@ -561,13 +561,14 @@ h5 {
 }
 .icon-link:hover {
   color: #64ffda;
+  transition: 0.3s;
 }
 
-.sopi-right {
+.beauty-right {
   width: 50%;
   height: 100%;
   border-radius: 10px;
-  background-image: url("../src/assets/sopi.jpg");
+  background-image: url("../src/assets/Beauty-by-kerrie.JPG");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
@@ -594,19 +595,19 @@ h5 {
   transition: 0.3s;
 }
 .ambience-left,
-.euka-left,
-.sopi-right,
-.sopi-left,
-.euka-right {
+.explore-left,
+.beauty-right,
+.beauty-left,
+.explore-right {
   transition: 0.3s;
 }
 .ambience-left:hover,
-.euka-left:hover,
-.sopi-left:hover {
+.explore-left:hover,
+.beauty-left:hover {
   margin-right: -10px;
 }
 
-.sopi-right:hover {
+.beauty-right:hover {
   margin-left: -10px;
   margin-right: 10px;
 }
@@ -683,16 +684,16 @@ h5 {
   margin-right: 10px;
 }
 
-.euka-links,
-.sopi-links,
+.explore-links,
+.beauty-links,
 .ambience-links {
   margin-top: 10px;
 }
-.euka-video:hover,
-.euka-github:hover,
-.sopi-video:hover,
-.sopi-website:hover,
-.sopi-github:hover,
+.explore-video:hover,
+.explore-github:hover,
+.beauty-video:hover,
+.beauty-website:hover,
+.beauty-github:hover,
 .ambience-website:hover,
 .ambience-github:hover {
   transition: 0.3s;
@@ -998,7 +999,7 @@ a:link {
 }
 
 @media screen and (max-width: 1890px) {
-  .sopi-languages-used {
+  .beauty-languages-used {
     margin-bottom: 20px;
   }
 }
@@ -1053,13 +1054,13 @@ a:link {
   .work-header {
     font-size: 25px;
   }
-  .euka-box,
-  .sopi-box,
+  .explore-box,
+  .beauty-box,
   .ambience-box {
     font-size: 14px;
   }
-  .euka-languages-used,
-  .sopi-languages-used,
+  .explore-languages-used,
+  .beauty-languages-used,
   .ambience-languages-used {
     font-size: 14px;
   }
@@ -1125,13 +1126,13 @@ a:link {
   .work-header {
     font-size: 25px;
   }
-  .euka-box,
-  .sopi-box,
+  .explore-box,
+  .beauty-box,
   .ambience-box {
     font-size: 12px;
   }
-  .euka-languages-used,
-  .sopi-languages-used,
+  .explore-languages-used,
+  .beauty-languages-used,
   .ambience-languages-used {
     font-size: 12px;
   }
@@ -1305,12 +1306,12 @@ a:link {
     margin: 20px;
   }
 
-  .euka-left,
-  .sopi-right,
+  .explore-left,
+  .beauty-right,
   .ambience-left {
     height: 120px;
   }
-  .euka-languages-used {
+  .explore-languages-used {
     width: 150%;
     margin-left: -50%;
   }

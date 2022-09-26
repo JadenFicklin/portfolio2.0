@@ -18,46 +18,47 @@ function Work() {
               <span className="l">k</span>
             </span>
           </div>
-          <div className="euka-outer">
+          <div className="explore-outer">
             <a
-              href="https://www.youtube.com/watch?v=-Zj5KCwzMwg"
+              href="https://explore-art.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              className="euka-left"
+              className="explore-left"
             >
               {" "}
             </a>
 
-            <div className="euka-right">
-              <div className="euka-project-name">Featured Project</div>
-              <div className="euka-name">Euka</div>
-              <div className="euka-box">
-                Euka is an ecommerce website designed to market shoes. <br></br>
+            <div className="explore-right">
+              <div className="explore-project-name">Featured Project</div>
+              <div className="explore-name">Explore Art</div>
+              <div className="explore-box">
+                Explore Art was created to show some of my favorite sculptures.{" "}
                 <br></br>
-                <span className="number">timeframe of build: </span> 2 weeks{" "}
+                <br></br>
+                <span className="number">timeframe of build: </span> 3 days{" "}
                 <br></br>
                 <br></br>{" "}
                 <span className="number margin">main focus of website: </span>{" "}
-                CSS
+                Spline
               </div>
-              <div className="euka-languages-used">
-                React <span className="space"></span>Express{" "}
-                <span className="space"></span>React Router{" "}
+              <div className="explore-languages-used">
+                React <span className="space"></span>Spline{" "}
+                <span className="space"></span>Netlify{" "}
                 <span className="space"></span> CSS
               </div>
-              <div className="euka-links">
-                <div className="euka-links-right">
+              <div className="explore-links">
+                <div className="explore-links-right">
                   <a
-                    className="euka-video"
-                    href="https://www.youtube.com/watch?v=-Zj5KCwzMwg"
+                    className="beauty-github"
+                    href="https://explore-art.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
+                    <FiExternalLink className="icon-link"></FiExternalLink>
                   </a>
                   <a
-                    className="euka-github"
-                    href="https://github.com/JadenFicklin/Capstone-project"
+                    className="explore-github"
+                    href="https://github.com/JadenFicklin/art-website"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -67,48 +68,38 @@ function Work() {
               </div>
             </div>
           </div>
-          <div className="sopi-outer">
-            <div className="sopi-left">
-              <div className="sopi-project-name">Featured Project</div>
-              <div className="sopi-name">Sopi</div>
-              <div className="sopi-box">
+          <div className="beauty-outer">
+            <div className="beauty-left">
+              <div className="beauty-project-name">Featured Project</div>
+              <div className="beauty-name">Beauty by Kerrie</div>
+              <div className="beauty-box">
                 {" "}
-                Sopi is a socializing website designed to upload and rate
-                videos. <br></br>
+                Beauty by Kerrie is a freelance project built to help customers
+                seeking cosmetic tattoos. <br></br>
                 <br></br>
-                <span className="number">timeframe of build: </span> 2 weeks{" "}
+                <span className="number">timeframe of build: </span> 3 days{" "}
                 <br></br>
                 <br></br>
                 <span className="number  margin">main focus of website: </span>
-                SQL
+                Reactive CSS
               </div>
-              <div className="sopi-languages-used">
-                React<span className="space"></span> Javascript
-                <span className="space"></span> Bcrypt
-                <span className="space"></span> SQL
-                <span className="space"></span> Heroku
+              <div className="beauty-languages-used">
+                React<span className="space"></span> CSS
+                <span className="space"></span> Netlify
               </div>
-              <div className="sopi-links">
-                <div className="sopi-links-right">
+              <div className="beauty-links">
+                <div className="beauty-links-right">
                   <a
-                    className="sopi-video"
-                    href="https://www.youtube.com/watch?v=8L-vkJSVaJs"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiOutlineYoutube className="icon-link"></AiOutlineYoutube>
-                  </a>
-                  <a
-                    className="sopi-github"
-                    href="https://capstone-2-jf.herokuapp.com/"
+                    className="beauty-github"
+                    href="https://beauty-by-kerrie.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FiExternalLink className="icon-link"></FiExternalLink>
                   </a>
                   <a
-                    className="sopi-github"
-                    href="https://github.com/JadenFicklin/specs-capstone"
+                    className="beauty-github"
+                    href="https://github.com/JadenFicklin/beauty-by-kerrie"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -118,10 +109,10 @@ function Work() {
               </div>
             </div>
             <a
-              href="https://capstone-2-jf.herokuapp.com/"
+              href="https://beauty-by-kerrie.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              className="sopi-right"
+              className="beauty-right"
             >
               {" "}
             </a>
@@ -142,11 +133,11 @@ function Work() {
                 Ambience is a website developed to adjust enjoyable ambient
                 sounds. <br></br>
                 <br></br>
-                <span className="number">timeframe of build: </span> 1 week{" "}
+                <span className="number">timeframe of build: </span> 1 day{" "}
                 <br></br>
                 <br></br>{" "}
                 <span className="number  margin">main focus of website: </span>{" "}
-                reactive CSS
+                Audio Files
               </div>
               <div className="ambience-languages-used">
                 React
