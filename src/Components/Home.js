@@ -42,7 +42,7 @@ function Home() {
             <span className="l">k</span>
             <span className="l">l</span>
             <span className="l">i</span>
-            <span className="l">nn</span>
+            <span className="l">n</span>
           </div>
           <div className="small-intro" onClick={() => (scrollPosition = 0)}>
             I’m a full-stack web developer, specializing in JavaScript
