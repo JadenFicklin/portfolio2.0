@@ -247,6 +247,9 @@ h5 {
   margin-top: -10px;
   margin-bottom: -40px;
 }
+.name:hover {
+  cursor: default;
+}
 
 .small-intro {
   margin-top: 20px;
