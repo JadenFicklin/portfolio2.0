@@ -234,7 +234,7 @@ h5 {
   color: #64ffda;
   position: relative;
   bottom: 10px;
-  cursor: auto;
+  cursor: default;
 }
 .l:active {
   color: #4de0be;
