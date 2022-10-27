@@ -19,7 +19,7 @@ function Work() {
           </div>
           <div className="explore-outer">
             <a
-              href="https://explore-art.netlify.app/"
+              href="https://oakandstone.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="explore-left"
@@ -29,19 +29,20 @@ function Work() {
 
             <div className="explore-right">
               <div className="explore-project-name">Featured Project</div>
-              <div className="explore-name">Explore Art</div>
+              <div className="explore-name">Oak and Stone</div>
               <div className="explore-box">
-                Explore Art was created to show some of my favorite sculptures.{" "}
+                Freelance project built for a construction business specializing
+                in cabinet remodels
                 <br></br>
                 <br></br>
-                <span className="number">timeframe of build: </span> 3 days{" "}
+                <span className="number">timeframe of build: </span> 14 days{" "}
                 <br></br>
                 <br></br>{" "}
                 <span className="number margin">main focus of website: </span>{" "}
-                Spline
+                Reactive CSS
               </div>
               <div className="explore-languages-used">
-                React <span className="space"></span>Spline{" "}
+                React <span className="space"></span>API's{" "}
                 <span className="space"></span>Netlify{" "}
                 <span className="space"></span> CSS
               </div>
@@ -49,7 +50,7 @@ function Work() {
                 <div className="explore-links-right">
                   <a
                     className="beauty-github"
-                    href="https://explore-art.netlify.app/"
+                    href="https://oakandstone.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -57,7 +58,7 @@ function Work() {
                   </a>
                   <a
                     className="explore-github"
-                    href="https://github.com/JadenFicklin/art-website"
+                    href="https://github.com/JadenFicklin/Oak-n-stone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,16 +75,16 @@ function Work() {
               <div className="beauty-box">
                 {" "}
                 Beauty by Kerrie is a freelance project built to help customers
-                seeking cosmetic tattoos. (work in progress)<br></br>
+                seeking cosmetic tattoos.<br></br>
                 <br></br>
-                <span className="number">timeframe of build: </span> 3 days{" "}
+                <span className="number">timeframe of build: </span> 5 days{" "}
                 <br></br>
                 <br></br>
                 <span className="number  margin">main focus of website: </span>
                 Reactive CSS
               </div>
               <div className="beauty-languages-used">
-                React<span className="space"></span> CSS
+                React
                 <span className="space"></span> Netlify
               </div>
               <div className="beauty-links">
@@ -118,7 +119,7 @@ function Work() {
           </div>
           <div className="ambience-outer">
             <a
-              href="https://ambience-jf.herokuapp.com/"
+              href="https://explore-art.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="ambience-left"
@@ -127,27 +128,29 @@ function Work() {
             </a>
             <div className="ambience-right">
               <div className="ambience-project-name">Featured Project</div>
-              <div className="ambience-name">Ambience</div>
+              <div className="ambience-name">Explore Art</div>
               <div className="ambience-box">
-                Ambience is a website developed to adjust enjoyable ambient
-                sounds. <br></br>
+                Built to explore how 3D objects can be integrated into a
+                website.
                 <br></br>
-                <span className="number">timeframe of build: </span> 1 day{" "}
+                <br></br>
+                <span className="number">timeframe of build: </span> 4 days{" "}
                 <br></br>
                 <br></br>{" "}
                 <span className="number  margin">main focus of website: </span>{" "}
-                Audio Files
+                Spline
               </div>
               <div className="ambience-languages-used">
                 React
                 <span className="space"></span> Javascript
-                <span className="space"></span> Heroku
+                <span className="space"></span> Netlify
+                <span className="space"></span> Spline
               </div>
               <div className="ambience-links">
                 <div className="ambience-links-right">
                   <a
                     className="ambience-website"
-                    href="https://ambience-jf.herokuapp.com/"
+                    href="https://explore-art.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -155,7 +158,7 @@ function Work() {
                   </a>
                   <a
                     className="ambience-github"
-                    href="https://github.com/JadenFicklin/ambience-side-project"
+                    href="https://github.com/JadenFicklin/art-website"
                     target="_blank"
                     rel="noreferrer"
                   >
